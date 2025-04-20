@@ -1,0 +1,9 @@
+file_format: "1"
+id: dax2
+name: dax2
+type: shield
+url: https://github.com/wadackel/zmk-config-dax2
+requires:
+  - seeeduino_xiao_ble
+features:
+  - keys

@@ -1,0 +1,23 @@
+if SHIELD_DAX2_R
+
+config ZMK_KEYBOARD_NAME
+  default "dax2_R"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+  default y
+
+endif
+
+if SHIELD_DAX2_L
+
+config ZMK_KEYBOARD_NAME
+  default "dax2_L"
+
+endif
+
+if SHIELD_DAX2_R || SHIELD_DAX2_L
+
+config ZMK_SPLIT
+  default y
+
+endif
